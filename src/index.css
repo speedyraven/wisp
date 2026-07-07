@@ -1,0 +1,40 @@
+:root {
+  --bg: #0A0D12;
+  --panel: #12161D;
+  --panel-alt: #1B212B;
+  --text: #E7ECF3;
+  --text-dim: #7C8798;
+  --accent: #6FE7DD;
+  --accent-2: #B98CFF;
+  --danger: #FF6B6B;
+  --border: #232A35;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
